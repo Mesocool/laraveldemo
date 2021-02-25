@@ -16,6 +16,7 @@ class PostController extends Controller
      */
     public function index()
     {
+        dd(Auth::user());die;
         $posts = Post::where('published_at', '<=', Carbon::now())
             ->orderBy('published_at', 'desc')
             ->paginate();

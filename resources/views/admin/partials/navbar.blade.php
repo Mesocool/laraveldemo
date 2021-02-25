@@ -15,7 +15,7 @@
 
 <ul class="navbar-nav ml-auto">
     @guest
-        <li class="nav-item"><a class="nav-link" href="/login">登录</a></li>
+        <li class="nav-item"><a class="nav-link" href="/admin">登录</a></li>
     @else
         <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
